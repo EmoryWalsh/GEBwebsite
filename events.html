@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Events</title>
+    <link rel="stylesheet" href="styles/site.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logos">
+            <picture class="guidingeyeslogo">
+                <!-- Source: https://www.guidingeyes.org/ -->
+                <img src="images/guidingeyeslogo.png" alt="Guiding Eyes Logo" width="409" height="210">
+            </picture>
+
+            <picture class="cornelllogo">
+                <!-- Source: https://en.wikipedia.org/wiki/File:Cornell_University_Logo.png -->
+                <img src="images/cornelllogo.png" alt="Cornell Logo" width="2048" height="2048">
+            </picture>
+        </div>
+
+        <button class="hamburger hidden" id="hamburger">
+            <!--Source: (personal design) Amanda Pinto-->
+            <img src="images/hamburger-icon.png" alt="Hamburger Menu Icon" aria-label="show navigation" width="1434"
+                height="1017">
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="getinvolved.html">Get Involved</a></li>
+                <li><a href="dogs.html">Our Dogs</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <nav class="navmenu hidden" id="navmenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="getinvolved.html">Get Involved</a></li>
+            <li><a href="dogs.html">Our Dogs</a></li>
+            <li><a href="events.html">Events</a></li>
+        </ul>
+    </nav>
+
+    <!-- Tab links -->
+    <div class="tab">
+        <button id="upcoming-button" class="white" aria-label="click for upcoming events">Upcoming Events</button>
+        <button id="past-button" class="red" aria-label="click for past events">Past Events</button>
+        <button id="schedule-button" class="red" aria-label="click for how to schedule events with us">Schedule An Event
+            With Us</button>
+    </div>
+
+    <!--Incoming Events-->
+    <div id="upcoming-content" class="event">
+        <h1>Upcoming Events</h1>
+
+        <ul>
+            <li>
+                <h3>Pet-a-Puppy with Panhellenic</h3>
+
+                <p>Join us for an event that combines the joy of furry companionship with the spirit of
+                    sisterhood—Pet-a-Puppy with Panhellenic! This unique and heartwarming experience brings together
+                    members of the Panhellenic community for a day filled with adorable puppies, laughter, and
+                    unforgettable moments.</p>
+
+                <p><strong>Date and Time:</strong> Monday, December 4, 2:00pm - 4:00pm</p>
+
+                <p><strong>Location:</strong> WSH Music Room</p>
+            </li>
+
+            <li>
+                <h3>Pet-a-Puppy with CALS Zone</h3>
+
+                <p>Join us for an event with the one and only CALS Zone. Come pet some puppies and destress before
+                    finals!
+                </p>
+
+                <p><strong>Date and Time:</strong> Tuesday, December 5, 12:00pm - 1:00pm</p>
+
+                <p><strong>Location:</strong> CALS Zone</p>
+            </li>
+        </ul>
+    </div>
+
+
+    <!--Past Events-->
+
+
+    <div id="past-content" class="event hidden">
+        <h1>Past Events</h1>
+
+        <div class="event-past">
+            <figure class="event_gbm4">
+                <img src="images/event_gbm4.jpg" alt="Event page picture past 1" width="225" height="225">
+                <!--Source: Instagram sources provided by our clients-->
+            </figure>
+
+            <ul>
+                <li>
+                    <h3>General Body Meeting 4</h3>
+                </li>
+                <li>We are thrilled to invite you to our fourth General Body Meeting, a forum where your participation
+                    and insights play a vital role in shaping the trajectory of our organization. At this event we will
+                    be making toys for you to take home to your dogs, or to donate to the Guiding Eyes pups in the
+                    Fingerlakes region.</li>
+                <li><strong>Time:</strong> Tuesday, November 28, 5:00pm - 6:00pm</li>
+                <li><strong>Location:</strong> GSH G76</li>
+            </ul>
+        </div>
+
+        <div class="event-past">
+            <figure class="event_air">
+                <img src="images/event_air.png" alt="Event page picture past 1" width="225" height="225">
+                <!--Source: Instagram sources provided by our clients-->
+            </figure>
+
+            <ul>
+                <li>
+                    <h3>Pet a Puppy with AIR</h3>
+                </li>
+                <li>Come see our puppies at a Pet a Puppy with Alpha Iota Gamma. Learn more about Guiding Eyes at
+                    Cornell and Alpha Iota Gamma at this fun and furry event.</li>
+                <li><strong>Time:</strong> Monday, November 27, 5:00pm - 6:00pm</li>
+                <li><strong>Location:</strong> Philips 203</li>
+            </ul>
+        </div>
+
+        <div class="event-past">
+            <figure class="event_gbm3">
+                <img src="images/event_gbm3.jpg" alt="Event page picture past 1" width="225" height="225">
+                <!--Source: Instagram sources provided by our clients-->
+            </figure>
+
+            <ul>
+                <li>
+                    <h3>General Body Meeting 3</h3>
+                </li>
+                <li>Get ready for an engaging and informative session as we gear up for our third General Body Meeting!
+                    Your attendance is crucial as we discuss important updates, upcoming events, and hear your valuable
+                    input on the matters that shape our organization.</li>
+                <li><strong>Time:</strong> Tuesday, November 14, 5:00pm - 6:00pm</li>
+                <li><strong>Location:</strong> GSH G76</li>
+            </ul>
+        </div>
+
+        <div class="event-past">
+            <figure class="event1">
+                <img src="images/event_donuts_and_doggos.png" alt="Event page picture past 1" width="225" height="225">
+                <!--Source: Instagram sources provided by our clients-->
+            </figure>
+
+            <ul>
+                <li>
+                    <h3>Donunts and Doggos</h3>
+                </li>
+                <li>Get ready for our donut fundraiser with DSP, PGN, and AKPsi! We will have Dunkin Donuts for sale and
+                    puppies there for petting.</li>
+                <li><strong>Time:</strong> Tuesday November 14th, 2:30 pm - 4:30 pm</li>
+                <li><strong>Location:</strong> Willard Straight Memorial Room</li>
+            </ul>
+        </div>
+
+        <div class="event-past">
+            <figure class="event5">
+                <img src="images/event_ears.png" alt="Event page picture past 5" width="225" height="225">
+                <!--Source: Instagram sources provided by our clients-->
+            </figure>
+
+            <ul>
+                <li>
+                    <h3>Puppies & Peer Mentoring with EARS</h3>
+                </li>
+                <li>Come pet some puppies at our upcoming event with EARS. There will be representatives present from
+                    both organizations to give you more info about what we do. Come and pet some furry friends and say
+                    hi to us.</li>
+                <li><strong>Time:</strong> Monday, November 13th, 5:00pm -7:00pm</li>
+                <li><strong>Location:</strong> Willard Straight Hall</li>
+            </ul>
+        </div>
+
+        <div class="event-past">
+            <figure class="event5">
+                <img src="images/event_bmes.jpeg" alt="Event page picture past 5" width="225" height="225">
+                <!--Source: Instagram sources provided by our clients-->
+            </figure>
+
+            <ul>
+                <li>
+                    <h3>BMES</h3>
+                </li>
+                <li>Get ready for a paw-some experience at the BMES Dog Events! Whether you're a proud dog owner or just
+                    a dog enthusiast, join us for a day filled with wagging tails, furry friends, and boundless joy.
+                </li>
+                <li><strong>Time:</strong> Friday, November 10, 5:00pm - 6:00pm</li>
+                <li><strong>Location:</strong> Weill 226</li>
+            </ul>
+        </div>
+
+        <div class="event-past">
+            <figure class="event4">
+                <img src="images/event_aap.png" alt="Event page picture past 4" width="225" height="225">
+                <!--Source: Instagram sources provided by our clients-->
+            </figure>
+
+            <ul>
+                <li>
+                    <h3>Pet-A-Puppy with AAP</h3>
+                </li>
+                <li>Get ready for a tail-wagging, heart-melting experience as GuideYes introduces a unique and virtual
+                    twist to the beloved tradition of petting puppies! Join us for "GuideYes Pet-a-Puppy with App," an
+                    innovative event that brings the joy of interacting with adorable guide dog puppies directly to your
+                    fingertips.</li>
+                <li><strong>Time:</strong> Tuesday, October 24th, 5:00pm -7:00pm</li>
+                <li><strong>Location:</strong> Under Milstein</li>
+            </ul>
+        </div>
+
+        <div class="event-past">
+            <figure class="event2">
+                <img src="images/event_gbm1.png" alt="Event page picture past 2" width="225" height="225">
+                <!--Source: Instagram sources provided by our clients-->
+            </figure>
+
+            <ul>
+                <li>
+                    <h3>Our First General Body</h3>
+                </li>
+                <li>Embark on a transformative wellness journey as we unveil the inaugural event of GoBody, a
+                    groundbreaking platform dedicated to holistic health and well-being. Join us for an immersive
+                    experience that transcends traditional fitness events, promising an inspiring day filled with
+                    education, empowerment, and the celebration of personal wellness.</li>
+                <li><strong>Time:</strong> Tuesday, September 12, 5:00pm -6:00pm</li>
+                <li><strong>Location:</strong> Goldwin Smith Hall G76</li>
+            </ul>
+        </div>
+
+        <div class="event-past">
+            <figure class="event_clubfest">
+                <img src="images/event_clubfest.png" alt="Event page picture past 3" width="225" height="225">
+                <!--Source: Instagram sources provided by our clients-->
+            </figure>
+
+            <ul>
+                <li>
+                    <h3>Clubfest</h3>
+                </li>
+                <li>Welcome to the Guiding Eyes at Cornell ClubFest booth—a vibrant celebration of empowerment,
+                    inclusion, and the
+                    extraordinary bond between guide dogs and their partners! Join us for a day filled with festivities,
+                    education, and the joyous spirit of community as we honor the life-changing impact of guide dogs.
+                </li>
+                <li><strong>Time:</strong> Sunday, September 10, 2:00pm-4:00pm</li>
+                <li><strong>Location:</strong> Barton Hall</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!--how to schedule events with us-->
+    <div id="schedule-content" class="event hidden">
+        <h1>Schedule Events with Us!</h1>
+        <h3>To schedule an event with us, reach out to <a aria-label="link to create email to president"
+                href="mailto:guidingeyes@cornell.edu">guidingeyes@cornell.edu</a> with details of your event
+            (organization, date, time, brief description)</h3>
+        <ul>
+            <li>Our marketing chair will get back to you as soon as possible, letting you know if we can attend.</li>
+            <li>You reserve the room.</li>
+            <li>We coordinate the dogs.</li>
+            <li><strong>Pricing:</strong> Generally $40/hour or a portion of donations if it is a charity event</li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>This organization is a registered student organization of Cornell University.</p>
+
+        <a href="https://www.instagram.com/guidingeyesatcornell/">
+            <img src="images/instagram.png" width="512" height="512"
+                alt="instagram logo that can be clicked to direct to organization's instagram page"
+                aria-label="click for guiding eyes instagram page">
+        </a>
+    </div>
+
+
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/tabs.js"></script>
+</body>

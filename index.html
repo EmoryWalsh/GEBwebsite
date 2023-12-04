@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/site.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logos">
+            <picture class="guidingeyeslogo">
+                <!-- Source: https://www.guidingeyes.org/ -->
+                <img src="images/guidingeyeslogo.png" alt="Guiding Eyes Logo" width="409" height="210">
+            </picture>
+
+            <picture class="cornelllogo">
+                <!-- Source: https://en.wikipedia.org/wiki/File:Cornell_University_Logo.png -->
+                <img src="images/cornelllogo.png" alt="Cornell Logo" width="2048" height="2048">
+            </picture>
+        </div>
+
+        <button class="hamburger hidden" id="hamburger">
+            <!--Source: (personal design) Amanda Pinto-->
+            <img src="images/hamburger-icon.png" alt="Hamburger Menu Icon" aria-label="show navigation" width="1434" height="1017">
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="getinvolved.html">Get Involved</a></li>
+                <li><a href="dogs.html">Our Dogs</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <nav class="navmenu hidden" id="navmenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="getinvolved.html">Get Involved</a></li>
+            <li><a href="dogs.html">Our Dogs</a></li>
+            <li><a href="events.html">Events</a></li>
+        </ul>
+    </nav>
+
+    <div class="welcome">
+        <h1 class="blue">Welcome to Guiding Eyes at Cornell</h1>
+        <p>Building a community of guide dogs and raisers at Cornell under the Guiding Eyes for the Blind Organization!</p>
+        <p><a href="getinvolved.html">Join Our Community</a></p>
+    </div>
+
+
+    <!-- Carousel -->
+    <div class="carousel">
+        <button class="prev" id="prevbutton" aria-label="show previous slide">&#10094;</button>
+
+        <!-- Full-width images with number and caption text -->
+        <div class="slide on fade" id="slide1">
+          <img src="images/dogs_raisers.JPEG" alt="Dog Raisers Together">
+        </div>
+
+        <div class="slide accessible-hidden" id="slide2">
+          <img src="images/dogs.jpeg" alt="Image of 3 Guide Dogs">
+        </div>
+
+        <div class="slide accessible-hidden" id="slide3">
+          <img src="images/club.JPEG" alt="Image of all senior club members">
+        </div>
+
+        <button class="next" id="nextbutton" aria-label="show next slide">&#10095;</button>
+    </div>
+
+    <div class="state">
+        <button class="dot active" id="dot1"></button>
+        <button class="dot" id="dot2"></button>
+        <button class="dot" id="dot3"></button>
+      </div>
+
+    <!-- Mission -->
+
+    <section class="mission">
+        <h3>The Guiding Eyes for the Blind: Mission</h3>
+        <p>Guiding Eyes for the Blind provides guide dogs to people with vision loss. They are passionate about connecting exceptional dogs with individuals for greater independence in their day-to-day lives, and simultaneously inspires others to help make these life changing connections possible.</p>
+    </section>
+
+    <section class="intro">
+        <p>Guiding Eyes has nearly <strong>70</strong> years of experience in providing guide dogs to people with vision loss.  They estimate that more than <strong>10000</strong> service dog teams have graduated since their founding in 1954.  Approximately <strong>100</strong> guide dogs are placed annually, and more than <strong>1700</strong> volunteers support their mission.</p>
+
+        <p class="blue">Each Guiding Eyes graduate has a unique story of life changing events, challenges,  determination, and triumph.</p>
+
+        <p>Learn more and donate at <a class="blue" href="https://www.guidingeyes.org/" aria-label="link to guiding eyes organization page">https://www.guidingeyes.org/</a></p>
+    </section>
+
+    <section class="mission">
+        <h3>Guiding Eyes at Cornell: What We Do</h3>
+        <ul>
+            <li>Work with Guiding Eyes for the Blind, specifically the Fingerlakes Region</li>
+            <li>Host fundraisers to raise money and awareness for Guiding Eyes for the Blind</li>
+            <li>Provide a network of sitters for dogs being raised in our region - prioritizing sitters for our Cornell dogs</li>
+            <li>Raise dogs! Multiple dogs are currently being raised by undergraduate students on campus</li>
+        </ul>
+    </section>
+
+    <h2>Our Team</h2>
+
+    <div class="eboard">
+        <div class="eboardrow">
+            <figure>
+                <img src="images/casey_dies.png" width="994" height="994">
+                <figcaption>President: Casey Dies (ced243)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/emory_walsh.png" width="2214" height="2214">
+                <figcaption>Vice President: Emory Walsh (elw223)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/hayley.png" width="2048" height="2048">
+                <figcaption>Treasurer: Hayley Algert (hja35)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/jenna_gaglioti.png" width="525" height="525">
+                <figcaption>Secretary: Jenna Gaglioti (jrg352)</figcaption>
+            </figure>
+        </div>
+
+        <div class="eboardrow">
+            <figure>
+                <img src="images/hannah_rossow.png" width="2417" height="2417">
+                <figcaption>Fundraising Chair: Hannah Rossow (hjr53)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/jillian_creighton.jpg" width="530" height="530">
+                <figcaption>Marketing Chair: Jillian Creighton (jcc429)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/amy_hinsley.png" width="2394" height="2394">
+                <figcaption>Social Chair: Amy Hinesley (ach236)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/rachel_evanowski.jpeg" width="810" height="810">
+                <figcaption>Faculty Advisor: Rachel Evanowski (rle58)</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <p class="contact">To express interest or for more information, please contact Casey Dies, <a aria-label="link to create email to president" href="mailto:ced243@cornell.edu">ced243@cornell.edu</a><p>
+
+    <!-- Images Source: Client Provided, owned and shot by Guiding Eyes at Cornell -->
+    <!-- TEXT Source: Client Provided, owned by Guiding Eyes at Cornell, edited by our team -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>This organization is a registered student organization of Cornell University.</p>
+
+        <a href="https://www.instagram.com/guidingeyesatcornell/">
+            <img src="images/instagram.png" width="512" height="512" alt="instagram logo that can be clicked to direct to organization's instagram page" aria-label="click for guiding eyes instagram page">
+        </a>
+    </div>
+
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/carousel.js"></script>
+</body>
+
+</html>
