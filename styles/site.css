@@ -160,7 +160,7 @@ strong {
 
 .mission h3{
     font-size: 30px;
-    width: 360px;
+    width: 30%;
 }
 
 .mission p{
@@ -186,7 +186,8 @@ strong {
     }
 
     .mission h3{
-        margin-bottom: 0
+        margin-bottom: 0;
+        width: 100%
     }
 
     .mission p, .mission ul{
@@ -340,7 +341,7 @@ div.eboardrow figure img{
 
 p.contact {
     margin: auto;
-    width: 500px;
+    width: 50%;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 30px;
@@ -573,7 +574,7 @@ h2.dog-heading {
 #upcoming-content ul li{
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 100%;
+    width: 95%;
     list-style-type: none;
     background-color: rgb(231, 231, 231);
     padding:10px 20px;
